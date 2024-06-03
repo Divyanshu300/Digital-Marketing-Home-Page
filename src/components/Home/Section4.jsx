@@ -37,7 +37,7 @@ const Section4 = () => {
   const IMG = ({currentImgs}) => {
     return <img 
               src = {currentImgs} 
-              className='w-[900px] h-[500px] rounded-lg'
+              className='w-[900px] h-[560px] rounded-lg'
               alt='view'
             />
   }
@@ -53,16 +53,16 @@ const Section4 = () => {
             WHY WE ARE BEST
         </div>
       </div>
-      <div className='flex w-full gap-8 items-center'>
+      <div className='flex w-full items-center'>
         <div className='mx-auto'>
                 <IMG currentImgs = {currentImg}/>
         </div>
-        <div className='flex w-[20%] flex-col mx-auto gap-4'>
+        <div className='flex w-[20%] flex-col mx-auto gap-2'>
         {
           data.map((card) => (
-            <div key={card.id} className='flex mx-auto w-[100%] gap-8'>
+            <div key={card.id} className='flex mx-auto w-[100%]'>
               <div 
-                className={`flex flex-col mx-auto cursor-pointerx p-5 bg-bgDull ${
+                className={`flex flex-col mx-auto cursor-pointerx p-3 bg-bgDull ${
                   currentCard === card.id ?
                   "bg-btnRed text-white" :
                   " "
