@@ -2,7 +2,7 @@
 
 <h2>🚀 Live </h2>
 
-[Digital Marketing](https://digital-marketing-website-cfx5gss95-tanya13agarwals-projects.vercel.app/)
+[Digital Marketing](https://digital-marketing-home-page-l3dt1sxeg-divyanshu800s-projects.vercel.app/)
 
 <br></br>
   
