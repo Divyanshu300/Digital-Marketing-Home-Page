@@ -26,7 +26,7 @@ const Section1 = () => {
 
             <button
                 onClick={() => setFormModal(true)}
-                className={` bg-btnRed hover:bg-white hover:border hover:text-btnRed hover:border-btnRed w-[25%] p-3 cursor-pointer text-white rounded-lg hover:scale-95 transition-all duration-200`}
+                className={` bg-btnRed hover:bg-white hover:border hover:text-btnRed hover:border-btnRed w-[30%] p-3 cursor-pointer text-white rounded-lg hover:scale-95 transition-all duration-200`}
             >
                 CONTACT US
             </button>
